@@ -312,7 +312,7 @@ Admin URL : $admin_url
 ';
 
 // Update template Variable (From ADMIN)
-$l['mail_update_sub'] = 'Scripts Upadates Available';
+$l['mail_update_sub'] = 'Dostępne Aktualizacje Skryptów';
 $l['mail_update'] = 'This email is regarding the outdated installation of certain PHP scripts you have installed. For security reasons you must update these outdated installations as soon as possible.
 The following script updates are available:
 
