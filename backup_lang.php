@@ -15,6 +15,8 @@
 // ----------------------------------------------------------
 // Please Read the Terms of use at http://www.softaculous.com
 // ----------------------------------------------------------
+// Spolszczenie: Developers.pl
+// ----------------------------------------------------------
 //===========================================================
 // (c)Softaculous Inc.
 //===========================================================
@@ -52,12 +54,12 @@ $l['<title>'] = APP.' - Backup';
 $l['info'] = 'Info';
 $l['ins_softname'] = 'Software';
 $l['ins_num'] = 'Installation Number';
-$l['ins_ver'] = 'Version';
-$l['ins_time'] = 'Installation Time';
-$l['ins_path'] = 'Path';
+$l['ins_ver'] = 'Wersja';
+$l['ins_time'] = 'Data instalacji';
+$l['ins_path'] = 'Ścieżka';
 $l['ins_wwwdir'] = 'Web Directory Path';
 $l['ins_url'] = 'URL';
-$l['ins_db'] = 'Database Name';
+$l['ins_db'] = 'Nazwa bazy danych';
 $l['ins_dbuser'] = 'Database User';
 $l['ins_dbpass'] = 'Database Password';
 $l['ins_dbhost'] = 'Database Host';
