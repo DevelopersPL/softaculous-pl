@@ -15,6 +15,8 @@
 // ----------------------------------------------------------
 // Please Read the Terms of use at http://www.softaculous.com
 // ----------------------------------------------------------
+// Spolszczenie: Developers.pl
+// ----------------------------------------------------------
 //===========================================================
 // (c)Softaculous Inc.
 //===========================================================
@@ -26,28 +28,28 @@ if(!defined('SOFTACULOUS')){
 
 }
 
-$l['no_panel'] = 'The type of account was not selected.';
-$l['no_domain_name'] = 'The domain name was not specified';
-$l['no_username'] = 'The account username was not specified';
-$l['no_password'] = 'The account password was not specified';
-$l['invalid_panel'] = 'An invalid account type was submitted';
-$l['invalid_domain'] = 'An invalid domain name was submitted';
-$l['domain_exists'] = 'The domain already exists';
-$l['no_paths'] = 'Could not determine the paths. This can be because of incorrect information given here.';
+$l['no_panel'] = 'Typ konta nie został wybrany.';
+$l['no_domain_name'] = 'Domena nie została sprecyzowana';
+$l['no_username'] = 'Nazwa użytkownika konta nie została sprecyzowana';
+$l['no_password'] = 'Hasło użytkownika konta nie zostało sprecyzowane';
+$l['invalid_panel'] = 'Został przesłany niepoprawny typ konta';
+$l['invalid_domain'] = 'Została przesłana niepoprawna domena';
+$l['domain_exists'] = 'Domena już istnieje';
+$l['no_paths'] = 'Nie można określić ścieżki. Prawdopodobnie zostały podane nieprawidłowe informacje.';
 
-$l['<title>'] = 'Add a Remote Site';
-$l['header'] = 'Add a Remote Site';
-$l['done'] = 'The Remote website has been added successfully';
-$l['choose_type'] = 'Type of account';
-$l['choose_type_exp'] = 'Please choose the type of account you have';
-$l['submit'] = 'Add Remote Site';
-$l['domain_name'] = 'Domain Name';
-$l['domain_name_exp'] = 'The domain under this account where the sites will be published';
-$l['username'] = 'Account Username';
-$l['username_exp'] = 'The username of the account';
-$l['password'] = 'Account Password';
-$l['password_exp'] = 'The password of the account. This will <b>NOT</b> be stored any where.';
-$l['return_overview'] = 'Return to Overview';
+$l['<title>'] = 'Dodaj zewnętrzną stronę';
+$l['header'] = 'Dodaj zewnętrzną stronę';
+$l['done'] = 'Zewnętrzna strona została dodana pomyślnie';
+$l['choose_type'] = 'Typ konta';
+$l['choose_type_exp'] = 'Proszę wybrać typ konta jaki posiadasz';
+$l['submit'] = 'Dodaj zewnętrzną stronę';
+$l['domain_name'] = 'Domena';
+$l['domain_name_exp'] = 'Domena należąca do konta, pod którą będą publikowane strony';
+$l['username'] = 'Nazwa użytkownika';
+$l['username_exp'] = 'Użytkownik konta';
+$l['password'] = 'Hasło użutkownika';
+$l['password_exp'] = 'Hasło do konta. <b>NIE JEST</b> nigdzie przechowywane.';
+$l['return_overview'] = 'Wróć do przeglądu';
 
 
 ?>

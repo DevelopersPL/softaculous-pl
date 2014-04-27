@@ -28,7 +28,7 @@ if(!defined('SOFTACULOUS')){
 
 //Theme Strings
 $l['<title>'] = APP.' - MySQL Configuration';
-$l['apachehead'] = 'MySQL Configuration';
+$l['configuration'] = 'Configuration';
 $l['change_final_file'] = 'MySQL Configuration saved successfully';
 $l['connect_error'] ='Oops! There was an error while connecting to the <strong>Server</strong>';
 $l['err_add_msg'] = 'Oops! There were some errors while saving the file.';

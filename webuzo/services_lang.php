@@ -31,8 +31,12 @@ $l['<title>'] = APP . ' - Services';
 $l['lbl_head'] = 'Services';
 $l['error'] = 'There was an error while restarting the service';
 $l['done'] = 'Service Restarted Successfully';
-$l['done_stop'] = 'FTP service stopped successfully';
-$l['done_start'] = 'FTP service started successfully';
+$l['done_stop'] = 'Service stopped successfully';
+$l['done_start'] = 'Service started successfully';
 $l['connect_error'] ='Oops! There was an error while connecting to the <strong>Server</strong>';
+$l['service_name'] = 'Service Name';
+$l['status'] = 'Status';
+$l['restart'] = 'Restart';
+$l['start_stop'] = 'Start / Stop';
 
 ?>

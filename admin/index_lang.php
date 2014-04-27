@@ -43,6 +43,12 @@ $l['tab_installations'] = 'Installations';
 $l['tab_logout'] = 'Logout';
 $l['tab_plans'] = 'Plans';
 $l['tab_mail_trmplate'] = 'Email Templates';
+$l['tab_error_log'] = 'Error Logs';
+$l['tab_php'] = 'PHP';
+$l['user'] = 'User';
+$l['tab_disable_autoupgrade'] = 'Auto Upgrade';
+$l['tab_goto_enduser'] = 'Enduser Panel';
+$l['sub_license'] = 'Manage License';
 
 // Sub Menus
 $l['sub_outdated'] = 'Outdated Installations';
@@ -52,11 +58,16 @@ $l['sub_gen_set'] = 'General';
 $l['tab_import'] = 'Import';
 $l['sub_custom_scripts'] = 'Custom Scripts';
 $l['sub_general_scripts'] = 'General Scripts';
+$l['adv_software'] = 'Advanced Settings';
 $l['tab_tools'] = 'Tools';
 $l['sub_top_scripts'] = 'Select Top Scripts';
 $l['list_plan'] = 'List Plan(s)';
 $l['add_plan'] = 'Add Plan';
 $l['sub_upgrade'] = 'Upgradable';
+$l['add_user'] = 'Add User';
+$l['list_user'] = 'List Users';
+$l['sub_import_export'] = 'Import/Export';
+$l['sub_script_req'] = 'Scripts Requirements';
 
 $l['disable_reseller_admin_t'] = 'Reseller Panel Disabled';
 $l['disable_reseller_admin'] = 'Reseller Panel is Disabled for this User. Please contact System Administrator.';

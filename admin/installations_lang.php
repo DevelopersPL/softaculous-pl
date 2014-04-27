@@ -27,6 +27,7 @@ if(!defined('SOFTACULOUS')){
 }
 
 $l['no_submit'] = 'No installation was selected for emailing.';
+$l['no_ins_selected'] = 'No installation(s) selected for Upgrade.';
 $l['posix_error'] = 'POSIX functions are disabled. Please enable POSIX functions to perform Auto Upgrade for Installations.';
 $l['shellexec_error'] = 'exec function is disabled. Please enable exec function to perform Auto Upgrade for Installations.';
 $l['user_soft_upd_sub'] = 'Script Updates Available';
@@ -55,6 +56,7 @@ $l['li_scripts'] = 'Scripts';
 $l['li_url'] = 'URL';
 $l['li_insver'] = 'Installed Ver';// Installed Ver
 $l['li_ver'] = 'Version';
+$l['li_realver'] = 'Real Ver';
 $l['no_results'] = 'No results were found';
 $l['search_ins'] = 'Search';
 $l['with_selected'] = 'With Selected';
@@ -68,5 +70,17 @@ $l['failed'] = 'Failed';
 $l['go_to_autoupgrade'] = 'Go to List';
 $l['upgrading_completed'] = 'Upgrade Finished';
 $l['beta_note'] = '<b>Note</b> : This feature is in <b>BETA VERSION</b>. <a href="http://softaculous.com/docs/Auto_Upgrade" target="_blank">Read More..</a>';
+$l['wait_note'] = '<b>Note</b> : Please don\'t leave this page until all the installations are upgraded.';
+$l['tasklist_button'] = 'Task List';
+$l['auto_upgrade_enabled'] = 'Auto Upgrade Enabled';
+$l['real_ver_notice'] = 'The real version does not match with '.APP.' records. It seems that the user has upgraded installation(s) manually.';
+$l['latest_ver_notice'] = 'Latest version is available for the installation(s).';
+$l['update_records'] = 'Update '.APP.' records';
+$l['no_submit_rec'] = 'No installation(s) were selected for updating '.APP.' records';
+$l['err_update_record'] = 'Error occured while updating version in '.APP.' records';
+$l['succ_update_record'] = 'Successfully updated version for selected installation(s) in '.APP.' record';
+$l['only_realversion'] = 'Show Real Version';
+$l['only_realversion_exp'] = 'If checked '.APP.' will try to detect the real version of the installations.<br /><b>Note</b>: This might take time as it will find the real version by scanning the files of the installations';
+$l['no_info'] = 'No Info';
 
 ?>

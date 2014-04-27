@@ -32,6 +32,8 @@ $l['not_selected'] = 'Domain Not Selected';
 $l['already_exists'] = 'The directory already exists';
 $l['park_instead_addon'] = 'A domain pointing to that path already exists. Hence please add this domain as a Parked Domain.';
 $l['domain_not_exists'] = 'The selected domain does not exist';
+$l['domain_path_not_found'] = 'Invalid Path specified for Domain.';
+$l['domain_exists'] = 'The domain already exists';
 
 //Theme Strings
 $l['<title>'] = 'Add New Domain';
@@ -45,5 +47,6 @@ $l['suc_dom_added'] = 'Domain added successfully.';
 $l['lbl_db_manage'] = 'Back to Domain Manage';
 $l['select_domain'] = 'Select Domain';
 $l['exp_checkaddon'] = 'Check for Addon & Uncheck for Parked';
+$l['domain_not_added'] = 'Oops!!! There were some errors while adding the domain';
 
 ?>

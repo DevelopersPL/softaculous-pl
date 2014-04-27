@@ -40,7 +40,8 @@ $l['unzipping_files'] = 'Copying files and folders';
 $l['unzipping_datadir'] = 'Unzipping data files';
 $l['prop_db'] = 'Updating the database';
 $l['finishing_process'] = 'Finishing Upgradation';
-$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page till the progress bar reaches 100%';
+$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page until the progress bar reaches 100%';
+$l['no_space'] = 'You do not have sufficient space to upgrade this installation!';
 
 //Theme Strings
 $l['<title>'] = $globals['sn'].' - '.APP.' - ';
@@ -60,5 +61,11 @@ $l['regards'] = 'Regards';
 $l['softinstaller'] = 'Softaculous Auto Installer';
 $l['return'] = 'Return to Overview';
 $l['note_backup'] = 'Its recommended that you take a <a href="'.$globals['index'].'act=backup&insid=&soft-1;">backup</a> of the installation before upgrading.';
+$l['create_backup'] = 'Create Backup';
+$l['create_backup_exp'] = 'Create a Backup before upgrading';
+$l['prog_upgrading'] = 'Upgrading ';// Dont remove the trailing space
+$l['prog_upgrade_complete'] = 'Upgrade Completed.';
+
+$l['upgrade_tweet_sub'] = 'Tell your friends';
 
 ?>

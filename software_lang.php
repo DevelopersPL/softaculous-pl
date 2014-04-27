@@ -15,6 +15,8 @@
 // ----------------------------------------------------------
 // Please Read the Terms of use at http://www.softaculous.com
 // ----------------------------------------------------------
+// Spolszczenie: Developers.pl
+// ----------------------------------------------------------
 //===========================================================
 // (c)Softaculous Inc.
 //===========================================================
@@ -30,6 +32,7 @@ $l['no_info_file'] = 'The INFO.XML file could not be found! Please report this t
 $l['incompatible'] = 'The software requires a higher version of '.APP.'! Please report this to the server administrator.';
 $l['no_install'] = 'The INSTALL.XML file could not be found! Please report this to the server administrator.';
 $l['no_functions'] = 'The INSTALL FUNCTIONS file could not be found! Please report this to the server administrator.';
+$l['no_remove_functions'] = 'The REMOVE FUNCTIONS file could not be found! Please report this to the server administrator.';
 $l['no_softdomain'] = 'You did not choose the domain to install the software.';
 $l['wrong_softdomain'] = 'The path of the domain you selected could not be found.';
 $l['softdirectory_exists'] = 'The directory you typed already exists! Please type in another directory name.';
@@ -79,12 +82,19 @@ $l['unzipping_files'] = 'Copying files and folders';
 $l['unzipping_datadir'] = 'Unzipping data files';
 $l['prop_db'] = 'Propagating the database';
 $l['finishing_process'] = 'Finishing Installation';
-$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page till the progress bar reaches 100%';
+$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page until the progress bar reaches 100%';
 $l['no_hostname'] = 'Please enter your Database Hostname';
 $l['no_dbusername'] = 'Please enter your Database Username';
 $l['no_dbuserpass'] = 'Please enter your Database Password';
 $l['softdirectory_invalid'] = 'The directory you typed is invalid.';
 $l['softdatadir_invalid'] = 'The data directory you typed is invalid.';
+$l['err_domain'] = 'No Domain';
+$l['err_domain_admin'] = 'This User does not have any Domain. Please contact Administrator.';
+$l['err_pass_strength'] = 'Password strength must be greater than ';
+$l['no_https'] = 'A trusted SSL Certificate was not found';
+$l['err_dbprefix'] = 'Table Prefix is invalid. Valid values are a-z or A-Z or 0-9 or _';
+$l['no_php_install'] = 'PHP is not installed. To install it, please click <a href="'.$globals['index'].'act=apps&app=1">here</a>';
+$l['no_mysql_install'] = 'MySQL is not installed. To install it, please click <a href="'.$globals['index'].'act=apps&app=16">here</a>';
 
 //Theme Strings
 $l['<title>'] = $globals['sn'].' - '.APP.' - ';
@@ -110,7 +120,7 @@ $l['in_directory_exp'] = 'The directory is relative to your domain and <b>should
 $l['database_name'] = 'Nazwa bazy danych';
 $l['database_name_exp'] = 'Type the name of the database to be created for the installation';
 $l['softcopy_note'] = '<b>NOTE</b>: This software requires that it be installed using its own installation utility. Please visit the URL that will be shown once the files have been copied to complete the installation process.';
-$l['softsubmit'] = 'Install';
+$l['softsubmit'] = 'Instaluj';
 $l['congrats'] = 'Congratulations, the software was installed successfully';
 $l['succesful'] = 'has been successfully installed at';
 $l['admin_url'] = 'Administrative URL';
@@ -123,45 +133,46 @@ $l['softinstaller'] = 'Softaculous Auto Installer';
 $l['return'] = 'Wróć do przeglądu';
 $l['current_ins'] = 'Current Installations';
 $l['link'] = 'Link';
-$l['ins_time'] = 'Installation Time';
-$l['version'] = 'Version';
+$l['ins_time'] = 'Czas instalacji';
+$l['version'] = 'Wersja';
 $l['upd_to'] = 'Upgrade to Version';
-$l['remove'] = 'Remove';
-$l['no_info'] = 'No Info';
-$l['randpass'] = 'Generate a Random Password';
-$l['ratesoft'] = 'Rate this Script';
+$l['remove'] = 'Usuń';
+$l['no_info'] = 'Brak informacji';
+$l['randpass'] = 'Wygeneruj losowe hasło';
+$l['ratesoft'] = 'Oceń ten skrypt';
 $l['reviews'] = 'Reviews';
 $l['reviewsoft'] = 'Write a Review';
 $l['readreviews'] = 'Read Reviews';
 $l['reviews_exp'] = 'Read reviews written by other users and';
 $l['cron_job'] = 'CRON Job';
 $l['cron_job_exp'] = 'This script requires a CRON to work. Please specify the CRON timings. If you are unaware of it, leave it as it is!';
-$l['cron_min'] = 'Min';
-$l['cron_hour'] = 'Hour';
-$l['cron_day'] = 'Day';
-$l['cron_month'] = 'Month';
-$l['cron_weekday'] = 'Weekday';
-$l['datadir'] = 'Data Directory';
+$l['cron_min'] = 'Minuta';
+$l['cron_hour'] = 'Godzina';
+$l['cron_day'] = 'Dzień';
+$l['cron_month'] = 'Miesiąc';
+$l['cron_weekday'] = 'Dzień tygodnia';
+$l['datadir'] = 'Katalog z danymi';
 $l['datadir_exp'] = 'This script requires to store its data in a folder not accessible via the web. It will be created in your home folder. i.e. if you specify <b>datadir</b> the following will be created - /home/username/<b>datadir</b>';
 $l['db_alpha_num'] = 'Only alpha numeric characters are allowed for the Database name.';
 $l['overwrite'] = 'Overwrite Files';
 $l['ins_emailto'] = 'Email installation details to';
 $l['choose_protocol'] = 'Choose Protocol';
 $l['choose_protocol_exp'] = 'If your site has SSL, then please choose the HTTPS protocol.';
-$l['backup'] = 'Backup';
-$l['options'] = 'Options';
-$l['admin'] = 'Admin';
+$l['clone'] = 'Klonuj';
+$l['backup'] = 'Kopia zapasowa';
+$l['options'] = 'Opcja';
+$l['admin'] = 'Administrator';
 $l['notify_ver'] = 'Powiadom '.$globals['sn'].' o nowszej wersji';
 $l['notifyversion'] = 'Dziękujemy za poinformowanie o nowej wersji. Sprawdzimy to tak szybko jak to tylko możliwe';
 $l['del_insid'] = 'Are you sure you wish to remove the selected installations ? The action will be irreversible. \nNo further confirmations will be asked.';
-$l['rem_inst_id'] = 'Removing Installation - ';
+$l['rem_inst_id'] = 'Kasowanie instalacji - ';
 $l['no_sel_inst'] = 'No installation(s) selected to remove.';
 $l['inst_remvd'] = 'The selected installation(s) have been removed. The page will now be reloaded !';
 $l['remove'] = 'Usuń';
 $l['go'] = 'Idź';
 $l['screenshots'] = 'Zrzuty ekranu';
-$l['downloading'] = 'Downloading Package';
-$l['installing'] = 'Installing Script';
+$l['downloading'] = 'Strona pobierania';
+$l['installing'] = 'Instalowanie skryptu';
 $l['editdetail'] = 'Edit Details';
 $l['publish'] = 'Publish on the Web';
 $l['hostname'] = 'Database Hostname';
@@ -176,4 +187,38 @@ $l['choose_version_exp'] = 'Proszę zaznaczyć wersję do instalacji';
 $l['choose_version'] = 'Wybierz wersję, którą chcesz zainstalować';
 $l['select'] = 'Zaznacz';
 $l['release_date'] = 'Data wydania';
+$l['adv_option'] = 'Opcje zaawansowane';
+$l['disable_notify_update'] = 'Wyłącz powiadomienia o aktualizacji';
+$l['exp_disable_notify_update'] = 'If checked you will not receive an email notification for updates available for this installation.';
+$l['prog_installing'] = 'Instalowanie '; // Dont remove trailing space
+$l['prog_install_complete'] = 'Instalacja zakończona';
+$l['eu_auto_upgrade'] = 'Automatyczna aktualizacja';
+$l['exp_eu_auto_upgrade'] = 'Jeśli zaznaczone - ta instalacja będzie automatycznie aktualizowana do najnowszej wersji kiedy ta się pojawi.';
+$l['auto_upgrade_enabled'] = 'Automatyczna aktualizacja włączona';
+$l['bad'] = 'Słabe';
+$l['good'] = 'Dobre';
+$l['strong'] = 'Mocne';
+$l['short'] = 'Krótkie';
+$l['strength_indicator'] = 'Wskaźnik siły hasła';
+$l['auto_backup'] = 'Automatyczne kopie zapasowe';
+$l['exp_auto_backup'] = APP.' will take automated backups via CRON as per the frequency you select';
+$l['auto_backup_rotation'] = 'Rotacja kopii zapasowych';
+$l['exp_auto_backup_rotation'] = 'Jeśli limit rotacji zostanie osiągnięty, '.APP.' automatycznie usunie najstarsze kopie zapasowe dla tej instalacji i stworzy nowe. Kopie zapasowe zajmują przestrzeń na dysku, więc wybierz rotację odpowiednią dla ilości wolnego miejsca na serwerze';
+$l['no_backup'] = 'Bez kopii zapasowej';
+$l['daily'] = 'Raz dziennie';
+$l['weekly'] = 'Raz na tydzień';
+$l['monthly'] = 'Raz na miesiąc';
+$l['unlimited'] = 'Bez limitu';
+$l['changelog'] = 'Lista zmian';
+$l['act_upgrade'] = 'Ostatnio zaktualizowane';
+$l['act_clone'] = 'Ostatnio sklonowane';
+$l['act_backup'] = 'Ostatnio objęte kopią zapasową';
+$l['act_install'] = 'Ostatnio zainstalowane';
+$l['act_edit'] = 'Ostatnio edytowane';
+$l['act_import'] = 'Ostatnio zaimportowane';
+$l['act_restore'] = 'Ostatnio przywrócone';
+$l['ampps_download'] = 'You can develop <b>&soft-1;</b> on your <b>desktop</b> using our Free developer tool Softaculous AMPPS. Click <a href="http://www.ampps.com/download?give=latest" target="_blank"><b>here</b></a> to download <a href="http://www.ampps.com/download?give=latest" target="_blank"><img src="https://images.softaculous.com/ampps.gif" height="25" /></a>';
+
+$l['install_tweet_sub'] = 'Powiedz znajomym o swoich nowych stronach';
+
 ?>

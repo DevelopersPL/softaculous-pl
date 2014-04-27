@@ -36,5 +36,12 @@ $l['apachesettings'] = 'Apache Settings';
 $l['settings_saved'] = 'Your settings were saved successfully.';
 $l['suphp_enable'] = 'Enable suPHP';
 $l['suphp_check'] = 'Check if you want suPHP enabled.';
+$l['err_no_install'] = 'PHP is not installed on your Server';
+$l['spdy_enable'] = 'Enable SPDY';
+$l['spdy_check'] = 'Check if you want SPDY enabled.';
+$l['nginxsettings'] = 'Nginx Settings';
+$l['edit_nginx_settings'] = 'Edit Nginx Settings';
+$l['err_no_install_nginx'] = 'Nginx is not installed on your Server';
+$l['old_nginx'] = 'You need to upgrade Nginx to the latest version to enable this setting.';
 
 ?>

@@ -15,6 +15,8 @@
 // ----------------------------------------------------------
 // Please Read the Terms of use at http://www.softaculous.com
 // ----------------------------------------------------------
+// Spolszczenie: Developers.pl
+// ----------------------------------------------------------
 //===========================================================
 // (c)Softaculous Inc.
 //===========================================================
@@ -50,5 +52,13 @@ $l['go'] = 'Idź';
 $l['classes_ins'] = 'Zainstalowane klasy';
 $l['remove_classes'] = 'Usuń klasy';
 $l['scripts_ins'] = 'Zainstalowane skrypty';
+$l['auto_upgrade_enabled'] = 'Automatyczna aktualizacja włączona';
+$l['sort_script'] = 'Skrypt';
+$l['sort_domain'] = 'Domena';
+$l['sort_ins_time'] = 'Czas instalacji';
+$l['sort_by'] = 'Sortowanie';
+$l['disabled_scripts'] = 'Wyłączone instalacje skryptów';
+$l['no_ins_for_disable'] = 'Nie masz żadnych instalacji z wyłączonych skryptów';
+
 
 ?>

@@ -49,5 +49,7 @@ $l['editdetail'] = 'Edit Details';
 $l['go'] = 'Go';
 $l['version'] = 'Version';
 $l['installation_removed'] = 'Installation has been removed, which was installed on the following url : <b>&soft-1;</b>. You can restore it using the Backup.';
+$l['invalid_downloadfile'] = 'The backup file is invalid';
+$l['note'] = 'Notes';
 
 ?>

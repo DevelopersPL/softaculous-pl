@@ -50,7 +50,7 @@ $l['rem_dir'] = 'Removing the Directory';
 $l['rem_datadir'] = 'Removing the Data Directory';
 $l['rem_cron'] = 'Removing the Cron Jobs';
 $l['finishing_process'] = 'Removed Successfully';
-$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page till the progress bar reaches 100%';
+$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page until the progress bar reaches 100%';
 
 
 //Theme Strings
@@ -84,5 +84,8 @@ $l['remove_wwwdir'] = 'Remove Web Directory';
 $l['remove_wwwdir_exp'] = 'If checked the web directory will be removed.';
 $l['ins_wwwdir'] = 'Web Directory';
 $l['return'] = 'Return to Overview';
+$l['prog_removing'] = 'Removing ';// Dont remove the trailing space
+$l['prog_remove_complete'] = 'Installation Removed.';
+$l['disabled_script_info'] = 'No information available as this script has been disabled.';
 
 ?>

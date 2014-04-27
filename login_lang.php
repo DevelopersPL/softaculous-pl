@@ -28,6 +28,7 @@ if(!defined('SOFTACULOUS')){
 $l['user_data_missing'] = 'The username or password field was empty';
 $l['invalid_username'] = 'The username or password you entered is incorrect';
 $l['invalid_password'] = 'The username or password you entered is incorrect'; 
+$l['invalid_user'] = 'The username or password you entered is incorrect'; 
 $l['no_username'] = 'The Username field was empty';
 $l['no_password'] = 'The Password field was empty';
 
@@ -52,11 +53,26 @@ A request to reset your password has been made.
 If you did not request the password reset, then please ignore this email.
 
 If you would like to reset your password, then please click the URL below :
-http://'.(($globals['softpanel'] == 'webuzo') ? $softpanel->getConf('WU_PRIMARY_IP').':2002' : '127.0.0.1').'/index.php?act=login&sa=resetpass&key=&soft-1;
+http://'.(($globals['softpanel'] == 'webuzo') ? $softpanel->getConf('WU_PRIMARY_DOMAIN').':2002' : '127.0.0.1').'/index.php?act=login&sa=resetpass&key=&soft-1;
 
 Regards,
 '.$globals['sn'];
 $l['mail_done'] = 'A mail has been sent with the details to reset your password';
+$l['fuser_mail_sub'] = 'Webuzo Username';
+$l['fuser_mail_body'] = 'Hi,
+						
+A request to fetch the Webuzo Username has been made.
+If you did not request the Webuzo Username, then please ignore this email.
+
+Login to the URL below :
+http://'.(($globals['softpanel'] == 'webuzo') ? $softpanel->getConf('WU_PRIMARY_DOMAIN').':2002' : '127.0.0.1').'/index.php?act=login
+
+Username : &soft-1;
+
+Regards,
+'.$globals['sn'];
+$l['fuser_mail_done'] = 'An email has been sent with the Webuzo Username';
+$l['forgotuser'] = 'Forgot Username';
 $l['back_to_login'] = 'Back to Login';
 
 $l['<title_reset>'] = 'Reset Password';

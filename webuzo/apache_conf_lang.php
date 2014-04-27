@@ -27,13 +27,14 @@ if(!defined('SOFTACULOUS')){
 }
 
 //Theme Strings
-$l['<title>'] = APP.' - Apache Configuration';
+$l['<title>'] = APP.' - Web Server Configuration';
 $l['apachehead'] = 'Apache Configuration';
-$l['change_final_file'] = 'Apache Configuration saved successfully.';
+$l['change_final_file'] = 'Configuration saved successfully.';
 $l['connect_error'] ='Oops! There was an error while connecting to the <strong>Server</strong>';
 $l['err_add_msg'] = 'Oops! There were some errors while saving the file.';
 $l['save'] = 'Save';
-
+$l['nginxhead'] = 'Nginx Configuration';
+$l['lighttpdhead'] = 'Lighttpd Configuration';
 
 
 ?>

@@ -39,5 +39,6 @@ $l['addon'] = 'Addon';
 $l['primary'] = 'Primary';
 $l['connect_error'] ='Oops there was an error while connecting to <strong>Server</strong>';
 $l['err_nodomain'] = 'Domain does not exist';
+$l['package_not_installed'] = 'NOTE : BIND is not installed on your server. Hence, you will not be able to use the DNS features of this Panel.';
 
 ?>

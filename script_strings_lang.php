@@ -30,6 +30,22 @@ $l['ss'] = array();
 
 // 'ss'stands for script strings
 $l['ss']['err_php'] = 'The PHP version is less than the required 5.2.0 version!';
+$l['ss']['err_phpver'] = 'The PHP version is less than the required <b>&soft-1;</b> version!';
+$l['ss']['err_php421'] = 'The PHP version is less than the required 4.2.1 version!';
+$l['ss']['err_php510'] = 'The PHP version is less than the required 5.1.0 version!';
+$l['ss']['err_php511'] = 'The PHP version is less than the required 5.1.1 version!';
+$l['ss']['err_php512'] = 'The PHP version is less than the required 5.1.2 version!';
+$l['ss']['err_php513'] = 'The PHP version is less than the required 5.1.3 version!';
+$l['ss']['err_php516'] = 'The PHP version is less than the required 5.1.6 version!';
+$l['ss']['err_php524'] = 'The PHP version is less than the required 5.2.4+ version!';
+$l['ss']['err_php523'] = 'The PHP version is less than the required 5.2.3 version!';
+$l['ss']['err_php525'] = 'The PHP version is less than the required 5.2.5 version!';
+$l['ss']['err_php521'] = 'The PHP version is less than the required 5.2.1 version!';
+$l['ss']['err_php526'] = 'The PHP version is less than the required 5.2.6 version!';
+$l['ss']['err_php528'] = 'The PHP version is less than the required 5.2.8 version!';
+$l['ss']['err_php5210'] = 'The PHP version is less than the required 5.2.10 version!';
+$l['ss']['err_php5211'] = 'The PHP version is less than the required 5.2.11+ version!';
+$l['ss']['err_php5213'] = 'The PHP version is less than the required 5.2.13 version!';
 $l['ss']['db_set'] = 'Database Settings';
 $l['ss']['db_pre'] = 'Table Prefix';
 $l['ss']['ad_act'] = 'Admin Account';
@@ -57,6 +73,9 @@ $l['ss']['err_makequery'] = 'Could not make the query numbered';
 $l['ss']['err_mynum'] = 'MySQL Error No';
 $l['ss']['err_myerr'] = 'MySQL Error';
 $l['ss']['err_boardemail'] = 'The Board Email Address is not valid';
+$l['ss']['err_bugemail'] = 'The Bug Email Address is not valid';
+$l['ss']['err_feedbackemail'] = 'The Feedback Email Address is not valid';
+$l['ss']['err_noreplyemail'] = 'The No Reply Email Address is not valid';
 $l['ss']['site_con'] = 'Site config';
 $l['ss']['wiki_name'] = 'Wiki name';
 $l['ss']['wiki_mail'] = 'Wiki Email';
@@ -116,6 +135,7 @@ $l['ss']['opening'] = 'Opening Message';
 $l['ss']['err_no_short'] = 'PHP short tags need to be enabled!.';
 $l['ss']['err_pdo'] = 'The pdo_mysql extension is not loaded!';
 $l['ss']['err_curl'] = 'The CURL extension is not loaded!';
+$l['ss']['err_mcrypt'] = 'The MCRYPT extension is not loaded!';
 $l['ss']['err_gd'] = 'The GD functions are not there';
 $l['ss']['err_zlib'] = 'The ZLib functions are not there';
 $l['ss']['err_safe_mode'] = 'Safe Mode needs to be OFF for installation to continue';
@@ -130,7 +150,11 @@ $l['ss']['license_key_exp'] = 'You can obtain a Trial License from here';
 $l['ss']['err_license_invalid'] = 'The license you entered is not a valid one. Please enter a Valid License';
 $l['ss']['admin_name'] = 'Real Name';
 $l['ss']['err_passlen'] = 'The password length should be 6 or more characters.';
+$l['ss']['err_passlen8'] = 'The password length should be 8 or more characters.';
+$l['ss']['err_adminlen4'] = 'The username length should be 4 or more characters.';
+$l['ss']['err_adminlen8'] = 'The username length should be 8 or more characters.';
 $l['ss']['err_passlen5'] = 'The password length should be 5 or more characters.';
+$l['ss']['err_passlen92'] = 'The password length should be less than 92 characters.';
 $l['ss']['passnote'] = 'Minimum 6 characters';
 $l['ss']['Sample_Data'] = 'Sample Data';
 $l['ss']['first_forum'] = 'First Forum Name';
@@ -148,11 +172,14 @@ $l['ss']['exp_cookie_domain'] = 'The domain of the cookie that will be used by t
 $l['ss']['select_adm_lang'] = 'Select Admin Language';
 $l['ss']['select_end_lang'] = 'Select Site Language';
 $l['ss']['err_php53'] = 'The PHP Version is less than the required 5.3+';
+$l['ss']['err_php54'] = 'The PHP Version is less than the required 5.4+';
 $l['ss']['err_php531'] = 'The PHP Version is less than the required 5.3.1';
 $l['ss']['err_php532'] = 'The PHP Version is less than the required 5.3.2';
 $l['ss']['err_php533'] = 'The PHP Version is less than the required 5.3.3';
 $l['ss']['err_php537'] = 'The PHP Version is less than the required 5.3.7';
-$l['ss']['err_php53_com'] = ' is not compatible with PHP version 5.3+';
+$l['ss']['err_php_com'] = '<b>&soft-1;</b> is not compatible with PHP version <b>&soft-2;+</b>';
+$l['ss']['err_php53_com'] = 'is not compatible with PHP version 5.3+';
+$l['ss']['err_php54_com'] = 'is not compatible with PHP version 5.4+';
 $l['ss']['fancyurls'] = 'Enable Fancy URLs';
 $l['ss']['exp_fancyurls'] = 'This feature will Enable Fancy URLs option for your StatusNet installation.';
 $l['ss']['conn_type'] = 'Connection Type';
@@ -185,6 +212,10 @@ $l['ss']['err_svn_repos_loc'] = 'The SVN repository directory does not exist.';
 $l['ss']['err_svn_passwd_file'] = 'The SVN password file does not exist.';
 $l['ss']['err_svn_access_file'] = 'The SVN access file does not exist.';
 $l['ss']['err_auto_upgrade'] = 'The Auto Upgrade process could not run the script upgrade utility.';
+$l['ss']['auto_upgrade_req_fail'] = 'This installation does not meet the auto upgrade requirements. Hence it cannot be auto upgraded.';
+$l['ss']['auto_upgrade_wp_mu_fail'] = 'Wordpress Multisite installation does not meet the auto upgrade requirements. Hence it cannot be auto upgraded.';
+$l['ss']['password_nonumber'] = 'The password must contain atleast one number.';
+$l['ss']['password_noupper'] = 'The password must contain at least one uppercase.';
 
 //Uncommon things
 
@@ -438,6 +469,16 @@ $l['ss']['real_name'] = 'Admin Real Name';
 
 if($GLOBALS['soft'] == 343){
 $l['ss']['data_dir'] = 'Moodle Data Directory';
+}
+
+if(webuzo()){
+	$l['ss']['default'] = 'Default';
+	$l['ss']['set-default'] = 'Set Default';
+	$l['ss']['exp-set-default'] = 'Set it as a default service to be used';
+	$l['ss']['exp-rem-default'] = 'This will remove the installed conflicting default service';
+	$l['ss']['dep'] = 'Dependencies';
+	$l['ss']['remove-dep'] = 'Remove Dependent Application(s)';
+	$l['ss']['exp-remove-dep'] = 'This will recursively remove the installed dependent application(s)';
 }
 
 ?>

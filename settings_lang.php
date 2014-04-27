@@ -15,6 +15,8 @@
 // ----------------------------------------------------------
 // Please Read the Terms of use at http://www.softaculous.com
 // ----------------------------------------------------------
+// Spolszczenie: Developers.pl
+// ----------------------------------------------------------
 //===========================================================
 // (c)Softaculous Inc.
 //===========================================================
@@ -44,5 +46,14 @@ $l['collapse'] = 'Zwiń';
 $l['edit_settings'] = 'Edytuj ustawienia';
 $l['settings'] = 'Ustawienia użytkownika';
 $l['settings_saved'] = 'Twoje ustawienia zostały pomyślnie zapisane';
+$l['left_panel_bg'] = 'Wybierz kolor lewego panelu';
+$l['left_panel_bg_exp'] = 'To zmieni kolor tła lewego panelu i nagłówka';
+$l['text_color'] = 'Zmień kolor czcionki lewego panelu';
+$l['text_color_exp'] = 'To zmieni kolor czcionki lewego panelu i nagłówka';
+$l['use_custom_color'] = 'Dostosuj motyw';
+$l['exp_use_custom_color'] = 'Jeśli zaznaczone - '.APP.' będzie używać wybranych kolorów. Jeśli chcesz zresetować motyw do domyślnego - odznacz pole i zapisz ustawienia';
+$l['reset'] = 'Reset';
+$l['arrange_domain'] = 'Sortuj domeny alfabetycznie';
+$l['exp_arrange_domain'] = 'Jeśli zaznaczone - domeny w menu <b>Wybierz domenę</b> przy instalacji będą sortowane alfabetycznie';
 
 ?>

@@ -50,4 +50,9 @@ $l['record_table'] = 'Email Forwarders of';
 $l['record_del_conf'] = 'Are you sure you want to delete this record ?';
 $l['delete'] = 'Record deleted successfully';
 $l['connect_error'] = 'Unable to connect to the server';
+$l['adv_option'] = 'Advance Option';
+$l['pipe'] = 'Pipe to a Program:';
+$l['no_pipe'] = 'Please provide the path of pipe file';
+$l['err_invalid_dir'] = 'The directory you typed is invalid.';
+$l['no_to_data'] = 'Plese provide a Send Email Data';
 ?>

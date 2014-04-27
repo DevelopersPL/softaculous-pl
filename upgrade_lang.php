@@ -38,12 +38,13 @@ $l['unzipping_files'] = 'Copying files and folders';
 $l['unzipping_datadir'] = 'Unzipping data files';
 $l['prop_db'] = 'Updating the database';
 $l['finishing_process'] = 'Finishing Upgradation';
-$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page till the progress bar reaches 100%';
+$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page until the progress bar reaches 100%';
 $l['cver_greater'] = 'The current version is greater than or equal to the version you are upgrading to. This is possible if you manually upgraded the installation. If this is not the case please check the following checkbox';
 $l['force_upgrade'] = 'Forcefully Upgrade';
 $l['backup_finish'] = 'Backup Finished';
 $l['backup_fail_proceed'] = 'Some error occured during the Backup process. Proceed to upgradation ?';
 $l['backing_up'] = 'Backing up the installation';
+$l['no_space'] = 'You do not have sufficient space to upgrade this installation!';
 
 //Theme Strings
 $l['<title>'] = $globals['sn'].' - '.APP.' - ';
@@ -75,5 +76,10 @@ $l['upgrading_to'] = 'You will be Upgrading to : ';
 $l['version'] = 'Version ';
 $l['create_backup'] = 'Create Backup';
 $l['create_backup_exp'] = 'Create a Backup before upgrading';
+$l['prog_upgrading'] = 'Upgrading ';// Dont remove the trailing space
+$l['prog_upgrade_complete'] = 'Upgrade Completed.';
+
+$l['upgrade_tweet_sub'] = 'Tell your friends';
+
 
 ?>

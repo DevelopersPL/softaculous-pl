@@ -53,8 +53,9 @@ $l['res_db'] = 'Restoring the Database';
 $l['res_dir'] = 'Restoring the Directory';
 $l['res_datadir'] = 'Restoring the Data Directory';
 $l['finishing_process'] = 'Backup Restored';
-$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page till the progress bar reaches 100%';
+$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page until the progress bar reaches 100%';
 $l['restoring'] = 'Your backup is being restored in background. You will be notified by email once its completed.';
-
+$l['prog_restoring'] = 'Restoring '; // Dont remove the trailing space
+$l['prog_restore_complete'] = 'Restore Completed.';
 
 ?>

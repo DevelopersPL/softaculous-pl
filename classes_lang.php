@@ -48,7 +48,7 @@ $l['unzipping_files'] = 'Copying files and folders';
 $l['unzipping_datadir'] = 'Unzipping data files';
 $l['prop_db'] = 'Propagating the database';
 $l['finishing_process'] = 'Finishing Installation';
-$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page till the progress bar reaches 100%';
+$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page until the progress bar reaches 100%';
 $l['cant_download'] = 'Can not download the ZIP file.';
 $l['softdirectory_invalid'] = 'The directory you typed is invalid.';
 $l['softdirectory_exists'] = 'The directory you typed already exists! Please type in another directory name.';
@@ -119,5 +119,12 @@ $l['inst_remvd'] = 'The selected installation(s) have been removed. The page wil
 $l['go'] = 'Go';
 $l['download_zip'] = 'Download All Files ';
 $l['software_category'] = 'Category';
+$l['adv_option'] = 'Advanced Options';
+$l['disable_notify_update'] = 'Disable Update Notifications';
+$l['exp_disable_notify_update'] = 'If checked you will not receive an email notification for updates available for this installation.';
+$l['prog_installing'] = 'Installing ';// Dont remove the trailing space
+$l['prog_install_complete'] = 'Installation Completed.';
+
+$l['install_tweet_sub'] = 'Tell your friends';
 
 ?>

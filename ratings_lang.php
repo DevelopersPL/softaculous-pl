@@ -15,6 +15,8 @@
 // ----------------------------------------------------------
 // Please Read the Terms of use at http://www.softaculous.com
 // ----------------------------------------------------------
+// Spolszczenie: Developers.pl
+// ----------------------------------------------------------
 //===========================================================
 // (c)Softaculous Inc.
 //===========================================================
@@ -27,8 +29,8 @@ if(!defined('SOFTACULOUS')){
 }
 
 //Theme Strings
-$l['<title>'] = $globals['sn'].' - Script Ratings';
-$l['script_ratings'] = 'Script Ratings';
-$l['click_logo'] = 'Click on a scripts logo to view / rate a script.';
+$l['<title>'] = $globals['sn'].' - Oceny skryptu';
+$l['script_ratings'] = 'Oceny skryptu';
+$l['click_logo'] = 'Kliknij na logo skryptu aby zobaczyć / ocenić skrypt.';
 
 ?>

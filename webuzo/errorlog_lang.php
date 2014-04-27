@@ -29,7 +29,7 @@ if(!defined('SOFTACULOUS')){
 //Theme Strings
 $l['<title>'] = APP . ' - Error Log';
 $l['lbl_head'] = 'Error Log';
-$l['msg'] = 'This page will display the last 300 error logs for the WebServer.';
+$l['msg'] = 'This page will display the last 300 error logs for the WebServer : ';
 $l['domain'] = 'View Domain Specific Error Logs : ';
 $l['empty_file'] = 'Error log file is empty!!';
 $l['default_file'] = 'error_log';

@@ -33,7 +33,7 @@ $l['<title>'] = APP.' - Top Script Settings';
 $l['settings_saved'] = 'The Top scripts were saved successfully.';
 $l['show_top_scripts'] = 'Show Top Scripts';
 $l['show_top_scripts_exp'] = 'The name of the Top Apps Category.';
-$l['soft_free_note'] = 'NOTE: In the free version of '.APP.', selection of Top 14 scripts is disaled.';
+$l['soft_free_note'] = 'NOTE: In the free version of '.APP.', selection of Top 14 scripts is disabled.';
 $l['savescript'] = 'Save Scripts';
 $l['select_top_scripts'] = 'Select Scripts';
 $l['selected_top_scripts'] = 'Your Selected Scripts';
@@ -50,6 +50,9 @@ $l['title_error'] = 'You did not submit the title of the Top Apps category.';
 $l['show_in_notice'] = 'Scripts Update Notification in cPanel\'s Notice section';
 $l['show_in_notice_exp'] = 'If you select this option, scripts update notification will be displayed in cPanel\'s Notice Section.';
 $l['group_order'] = 'Set Group order to display in cPanel.';
-$l['group_order_exp'] = 'If empty than by default it will be taken as 10.';
+$l['group_order_exp'] = 'If empty then by default it will be taken as 10';
+$l['reset_topscripts'] = 'Reset Top Scripts';
+$l['resetscripts_warning'] = 'Do you want reset TOP scripts ?';
+$l['reset_topscripts_done'] = 'TOP scripts has been reset to the default settings successfully';
 
 ?>

@@ -57,6 +57,27 @@ $l['mail_install_php_info'] = 'You can use the following Variables :<br />
 <strong>$dbhost</strong> : MySQL DB Host<br />
 <strong>$dbpass</strong> : MySQL DB Password<br />
 <strong>$cron</strong> : Cron Command<br />
+<strong>$disable_notify_update</strong> : Update Notification<br />
+<strong>$eu_auto_upgrade</strong> : Auto Upgrade<br />
+<strong>$auto_backup</strong> : Automated Backups<br />
+<strong>$auto_backup_rotation</strong> : Backup Rotation<br />
+<strong>$time</strong> : Time of Installation';
+
+// Clone Variables Information
+$l['mail_clone_info'] = 'You can use the following Variables :<br />
+<strong>$scriptname</strong> : Script Name<br />
+<strong>$old_path</strong> : Original Installation Path<br />
+<strong>$old_url</strong> : Original Installation URL<br />
+<strong>$path</strong> : Cloned Installation Path<br />
+<strong>$version</strong> : Version<br />
+<strong>$url</strong> : Cloned Installation URL<br />
+<strong>$admin_url</strong> : Admin URL<br />
+<strong>$datadirectory</strong> : Data Directory<br />
+<strong>$dbname</strong> : MySQL Database<br />
+<strong>$dbuser</strong> : MySQL DB User<br />
+<strong>$dbhost</strong> : MySQL DB Host<br />
+<strong>$dbpass</strong> : MySQL DB Password<br />
+<strong>$cron</strong> : Cron Command<br />
 <strong>$time</strong> : Time of Installation';
 
 // Installtion Variables Information
@@ -65,6 +86,9 @@ $l['mail_install_js_info'] = 'You can use the following Variables :<br />
 <strong>$path</strong> : Installation Path<br />
 <strong>$version</strong> : Version<br />
 <strong>$url</strong> : URL<br />
+<strong>$disable_notify_update</strong> : Update Notification<br />
+<strong>$auto_backup</strong> : Automated Backups<br />
+<strong>$auto_backup_rotation</strong> : Backup Rotation<br />
 <strong>$time</strong> : Time of Installation';
 
 // Installtion Variables Information
@@ -83,6 +107,9 @@ $l['mail_install_perl_info'] = 'You can use the following Variables :<br />
 <strong>$dbhost</strong> : MySQL DB Host<br />
 <strong>$dbpass</strong> : MySQL DB Password<br />
 <strong>$cron</strong> : Cron Command<br />
+<strong>$disable_notify_update</strong> : Update Notification<br />
+<strong>$auto_backup</strong> : Automated Backups<br />
+<strong>$auto_backup_rotation</strong> : Backup Rotation<br />
 <strong>$time</strong> : Time of Installation';
 
 // Removal Variables
@@ -126,7 +153,9 @@ $l['mail_editdetail_info'] = 'You can use the following Variables :<br />
 <strong>$dbuser</strong> : MySQL DB User<br />
 <strong>$dbhost</strong> : MySQL DB Host<br />
 <strong>$dbpass</strong> : MySQL DB Password<br />
-<strong>$time</strong> : Time of Installation
+<strong>$auto_backup</strong> : Automated Backups<br />
+<strong>$auto_backup_rotation</strong> : Backup Rotation<br />
+<strong>$time</strong> : Time of Installation<br />
 <strong>$edit_time</strong> : Modification Time
 ';
 
@@ -146,6 +175,7 @@ $l['mail_backup_info'] = 'You can use the following Variables :<br />
 <strong>$scriptname</strong> : Script Name<br />
 <strong>$backup_file</strong> : Web Directory<br />
 <strong>$error</strong> : Web URL<br />
+<strong>$backup_note</strong> : Backup Note<br />
 ';
 
 // Backup Failed Email variables
@@ -155,6 +185,67 @@ $l['mail_backup_fail_info'] = 'You can use the following Variables :<br />
 <strong>$scriptname</strong> : Script Name<br />
 <strong>$backup_file</strong> : Web Directory<br />
 <strong>$error</strong> : Web URL<br />
+';
+
+// Successfully Cli Upgraded by Admin
+$l['mail_adminupgrade_success_admin_info'] = 'You can use the following Variables :<br />
+<strong>$scriptname</strong> : Script Name<br />
+<strong>$url</strong> : URL<br />
+<strong>$oldversion</strong> : Current Version<br />
+<strong>$version</strong> : Latest Version<br />
+<strong>$user</strong> : Username<br />
+<strong>$backup_path</strong> : Backup Path<br />
+<strong>$path</strong> : Installation Path<br />
+<strong>$dbname</strong> : MySQL Database<br />
+<strong>$dbuser</strong> : MySQL DB User<br />
+<strong>$dbhost</strong> : MySQL DB Host<br />
+<strong>$dbpass</strong> : MySQL DB Password<br />
+<strong>$error</strong> : List of Restore Errors<br />
+<strong>$upgrade_error</strong> : List of Upgrade Errors<br />
+';
+
+$l['mail_adminupgrade_success_admin_info'] = $l['mail_adminupgrade_success_admin_info'];
+$l['mail_adminupgrade_fail_admin_info'] = $l['mail_adminupgrade_success_admin_info'];
+$l['mail_adminupgrade_restore_fail_admin_info'] = $l['mail_adminupgrade_success_admin_info'];
+
+$l['mail_adminupgrade_success_user_info'] = $l['mail_adminupgrade_success_admin_info'];
+$l['mail_adminupgrade_fail_user_info'] = $l['mail_adminupgrade_success_admin_info'];
+$l['mail_adminupgrade_restore_fail_user_info'] = $l['mail_adminupgrade_success_admin_info'];
+
+$l['mail_autoupgrade_success_user_info'] = $l['mail_adminupgrade_success_admin_info'];
+$l['mail_autoupgrade_fail_user_info'] = $l['mail_adminupgrade_success_admin_info'];
+$l['mail_autoupgrade_restore_fail_user_info'] = $l['mail_adminupgrade_success_admin_info'];
+
+$l['mail_userupgrade_success_user_info'] = $l['mail_adminupgrade_success_admin_info'];
+$l['mail_userupgrade_fail_user_info'] = $l['mail_adminupgrade_success_admin_info'];
+$l['mail_userupgrade_restore_fail_user_info'] = $l['mail_adminupgrade_success_admin_info'];
+
+$l['mail_autoupgrade_backup_fail_info'] = 'You can use the following Variables :<br />
+<strong>$scriptname</strong> : Script Name<br />
+<strong>$url</strong> : URL<br />
+<strong>$oldversion</strong> : Current Version<br />
+<strong>$version</strong> : Latest Version<br />
+<strong>$user</strong> : Username<br />
+<strong>$error</strong> : List of Errors<br />
+';
+
+$l['mail_autoupgrade_precheck_fail_info'] = $l['mail_autoupgrade_backup_fail_info'];
+
+// Auto backup successful Variables
+$l['mail_auto_backup_info'] = 'You can use the following Variables :<br />
+<strong>$scriptname</strong> : Script Name<br />
+<strong>$path</strong> : Installation Path<br />
+<strong>$url</strong> : Installation URL<br />
+<strong>$backup_file</strong> : Backup Path<br />
+';
+
+// Auto backup failed Variables
+$l['mail_auto_backup_fail_info'] = 'You can use the following Variables :<br />
+<strong>$scriptname</strong> : Script Name<br />
+<strong>$path</strong> : Installation Path<br />
+<strong>$url</strong> : Installation URL<br />
+<strong>$backup_file</strong> : Backup Path<br />
+<strong>$error</strong> : List of Errors<br />
 ';
 
 ?>

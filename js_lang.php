@@ -48,11 +48,13 @@ $l['unzipping_files'] = 'Copying files and folders';
 $l['unzipping_datadir'] = 'Unzipping data files';
 $l['prop_db'] = 'Propagating the database';
 $l['finishing_process'] = 'Finishing Installation';
-$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page till the progress bar reaches 100%';
+$l['wait_note'] = '<b>NOTE:</b> This may take 3-4 minutes. Please do not leave this page until the progress bar reaches 100%';
 $l['softdirectory_invalid'] = 'The directory you typed is invalid.';
 $l['no_sel_inst'] = 'No selected installations';
 $l['del_insid'] = 'Are you sure you want to delete selected installations ?';
 $l['ins_emailto'] = 'Email installation details to';
+$l['no_https'] = 'A trusted SSL Certificate was not found';
+$l['err_dbprefix'] = 'Table Prefix is invalid. Valid values are a-z or A-Z or 0-9 or _';
 
 //Theme Strings
 $l['<title>'] = $globals['sn'].' - '.APP.' - ';
@@ -104,10 +106,39 @@ $l['overwrite_exist'] = '<b>OR</b> <br />Select the checkbox to overwrite all fi
 $l['overwrite'] = 'Overwrite Files';
 $l['choose_protocol'] = 'Choose Protocol';
 $l['choose_protocol_exp'] = 'If your site has SSL, then please choose the HTTPS protocol.';
+$l['clone'] = 'Clone';
+$l['options'] = 'Options';
 $l['downloading'] = 'Downloading Package';
 $l['installing'] = 'Installing Script';
 $l['go'] = 'Go';
 $l['rem_inst_id'] = 'Removing Installation - ';
 $l['inst_remvd'] = 'The selected installation(s) have been removed. The page will now be reloaded !';
 $l['release_date'] = 'Release Date';
+$l['adv_option'] = 'Advanced Options';
+$l['disable_notify_update'] = 'Disable Update Notifications';
+$l['exp_disable_notify_update'] = 'If checked you will not receive an email notification for updates available for this installation.';
+$l['prog_installing'] = 'Installing '; // Dont remove trailing space
+$l['prog_install_complete'] = 'Installation Completed.';
+
+$l['auto_backup'] = 'Automated backups';
+$l['exp_auto_backup'] = APP.' will take automated backups via CRON as per the frequency you select';
+$l['auto_backup_rotation'] = 'Backup Rotation';
+$l['exp_auto_backup_rotation'] = 'If the backup rotation limit is reached '.APP.' will delete the oldest backup for this installation and create a new backup. The backups will utilize your space so choose the backup rotation as per the space available on your server';
+$l['no_backup'] = 'Don\'t backup';
+$l['daily'] = 'Once a day';
+$l['weekly'] = 'Once a week';
+$l['monthly'] = 'Once a month';
+$l['unlimited'] = 'Unlimited';
+$l['changelog'] = 'Changelog';
+$l['act_upgrade'] = 'Recently Upgraded';
+$l['act_clone'] = 'Recently Cloned';
+$l['act_backup'] = 'Recently Backed up';
+$l['act_install'] = 'Recently Installed';
+$l['act_edit'] = 'Recently Edited';
+$l['act_import'] = 'Recently Imported';
+$l['act_restore'] = 'Recently Restored';
+$l['ampps_download'] = 'You can develop <b>&soft-1;</b> on your <b>desktop</b> using our Free developer tool Softaculous AMPPS. Click <a href="http://www.ampps.com/download?give=latest" target="_blank"><b>here</b></a> to download <a href="http://www.ampps.com/download?give=latest" target="_blank"><img src="https://images.softaculous.com/ampps.gif" height="25" /></a>';
+
+$l['install_tweet_sub'] = 'Tell your friends about your new site';
+
 ?>

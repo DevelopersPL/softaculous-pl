@@ -15,6 +15,8 @@
 // ----------------------------------------------------------
 // Please Read the Terms of use at http://www.softaculous.com
 // ----------------------------------------------------------
+// Spolszczenie: Developers.pl
+// ----------------------------------------------------------
 //===========================================================
 // (c)Softaculous Inc.
 //===========================================================
@@ -54,7 +56,7 @@ $l['mb_free'] = ' MB wolnej przestrzeni na dysku dla tego konta';
 $l['soft_settings'] = 'Ustawienia ' . APP;
 $l['your_settings'] = 'To edit your '.APP.' settings please click';
 $l['conect_to_soft'] = 'Nie można połączyć ze źródłem wiadomości';
-$l['no_info'] = 'Brak infoormacji';
+$l['no_info'] = 'No Info';
 $l['news'] = 'Some News / Analysis';
 $l['javascriptify'] = 'Javascriptify your site';
 $l['javascriptify_exp'] = 'Install some of the world\'s best Javascript Libraries by the click of a button. We have provided you with easy-to-use JavaScript libraries to help you scriptify your web sites and provide a rich user interface. After all its all about the interface, isn\'t it! ';
@@ -80,15 +82,27 @@ $l['install_button'] = 'Zainstaluj';
 $l['demo_button'] = 'Demo';
 $l['more'] = ' ...więcej';
 
+$l['webuzo_web_ftp'] = 'Web FTP';
+$l['webuzo_cat_security'] = 'Security';
+$l['webuzo_cat_email'] = 'Email';
+$l['webuzo_ssl'] = 'SSL';
+$l['webuzo_cat_ftp'] = 'FTP';
+$l['webuzo_domain'] = 'Domain';
+$l['webuzo_login_logs'] = 'Login Logs';
+$l['nginx_settings'] = 'Nginx Settings';
 $l['webuzo_configuration'] = 'Konfiguracja';
+$l['webuzo_firewall'] = 'Firewall';
+$l['webuzo_csf'] = 'CSF Configuration';
+$l['webuzo_lighttpd'] = 'Lighttpd';
+$l['webuzo_nginx'] = 'Nginx';
 $l['webuzo_php'] = 'PHP';
 $l['webuzo_apache'] = 'Apache';
-$l['webuzo_mysql_conf'] = 'Mysql';
+$l['webuzo_mysql_conf'] = 'MySQL';
 $l['webuzo_install_cert'] = 'Install Certificate'; 
 $l['webuzo_email_forward'] = 'Email Forwarders';
 $l['webuzo_squirrel'] = 'Access Email';
-$l['webuzo_server'] = 'Email Server';
-$l['webuzo_email_acc'] = 'Email Account';
+$l['webuzo_server'] = 'E-mail Server';
+$l['webuzo_email_acc'] = 'E-mail Account';
 $l['webuzo_apache_tomcat'] = 'Apache Tomcat';
 $l['webuzo_ssh_access'] = 'SSH Access';
 $l['webuzo_crt'] = 'Certificate';
@@ -132,6 +146,11 @@ $l['webuzo_diskinfo'] = 'Disk Usage';
 $l['webuzo_bandwidthinfo'] = 'Bandwidth Usage';
 $l['webuzo_advance_setting'] = 'Advance settings';
 $l['webuzo_advance_dns'] = 'DNS Zone Settings';
+$l['webuzo_system_utilities'] = 'System Utilities';
+$l['webuzo_php_ext'] = 'PHP Extensions';
+$l['webuzo_network_tools'] = 'Network Tools';
+$l['webuzo_install_utility'] = 'This utility is not installed. Please install it first';
+
 $l['ampps_config'] = 'Configure';
 $l['ampps_mandom'] = 'Manage Domains';
 $l['ampps_adddom'] = 'Add Domain';
@@ -161,6 +180,10 @@ $l['ampps_rockmongo'] = 'RockMongo';
 $l['ampps_features'] = 'Features';
 $l['ampps_ftp'] = 'Manage FTP';
 $l['ampps_ftp_account'] = 'FTP Account';
+$l['ampps_php'] = 'PHP Configuration';
+$l['ampps_quick_conf'] = 'Server Quick Configuration';
+$l['ampps_apache'] = 'Apache Configuration';
+$l['ampps_mysql_conf'] = 'MySQL Configuration';
 
 // language files for classes
 $l['top_classes'] = 'Najpopularniejsze klasy';

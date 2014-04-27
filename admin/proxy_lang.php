@@ -45,5 +45,6 @@ $l['proxy_port'] = 'Proxy Port';
 $l['proxy_user'] = 'Proxy Username';
 $l['proxy_pass'] = 'Proxy Password';
 $l['edit_settings'] = 'Edit Settings';
+$l['tcp_note'] = '<b>Note</b> : Proxy will be performed using SOCKS5.';
 
 ?>

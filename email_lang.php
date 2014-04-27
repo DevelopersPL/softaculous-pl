@@ -15,6 +15,8 @@
 // ----------------------------------------------------------
 // Please Read the Terms of use at http://www.softaculous.com
 // ----------------------------------------------------------
+// Spolszczenie: Developers.pl
+// ----------------------------------------------------------
 //===========================================================
 // (c)Softaculous Inc.
 //===========================================================
@@ -26,21 +28,28 @@ if(!defined('SOFTACULOUS')){
 
 }
 
-$l['no_email'] = 'Nie sprecyzowano �adnych adres�w email';
-$l['wrong_email'] = 'Adres email nie jest prawid�owy';
+$l['no_email'] = 'Nie sprecyzowano żadnych adresów email';
+$l['wrong_email'] = 'Adres email nie jest prawidłowy';
 
 //Theme Strings
-$l['<title>'] = APP.' - Email Settings';
-$l['emailsettings'] = 'Email Settings';
-$l['email_address'] = 'Email Address';
-$l['email_exp'] = 'The email address to send mails to';
-$l['ins_email'] = 'Installation Emails';
-$l['ins_email_exp'] = 'Send an email containing setup details when you install a new software';
-$l['rem_email'] = 'Remove Installations';
-$l['rem_email_exp'] = 'Send an email when a software is uninstalled';
-$l['edit_settings'] = 'Edit Email Settings';
-$l['settings_saved'] = 'Your Email settings were saved successfully';
-$l['editdetail_email'] = 'Edit Installations';
-$l['editdetail_email_exp'] = 'Send an email when the details of an installation is modified';
+$l['<title>'] = APP.' - Ustawienia Email';
+$l['emailsettings'] = 'Ustawienia Email';
+$l['email_address'] = 'Adresy Email';
+$l['email_exp'] = 'Adresy Email, do których wysyłać maile';
+$l['ins_email'] = 'Emaile instalacji';
+$l['ins_email_exp'] = 'Wysyłaj email zawierający szczegółówe informacje po zakończeniu instalacji nowego oprogramowania.';
+$l['rem_email'] = 'Emaile kasowania instlacji';
+$l['rem_email_exp'] = 'Wysyłaj email kiedy oprogramowanie zostanie odinstalowane';
+$l['edit_settings'] = 'Edytuj ustawienia Email';
+$l['settings_saved'] = 'Ustawienia Email zostały zapisane pomyślnie';
+$l['editdetail_email'] = 'Emaile edycji instalacji';
+$l['editdetail_email_exp'] = 'Wysyłaj email kiedy szczegóły instlacji zostaną zmienione';
+$l['disable_all_notify_update'] = 'Wyłącz wszystkie powiadomienia o aktualizacji';
+$l['disable_all_notify_update_exp'] = 'Jeżli zaznaczone - nie otrzymasz więcej żadnego powiadomienia email o nowych aktualizacjach dla <b>WSZYSTKICH</b> Twoich instalacji.';
+$l['backup_email'] = 'Emaile kopii zapasowych';
+$l['backup_email_exp'] = 'Wysyłaj email zawierający szczegóły po wykonaniu kopii zapasowej instalacji';
+$l['clone_email'] = 'Emaile klonowania';
+$l['clone_email_exp'] = 'Wysyłaj email zawierający szczegóły po sklonowaniu instalacji';
+
 
 ?>
